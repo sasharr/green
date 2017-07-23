@@ -1,0 +1,111 @@
+.navbar-right {
+    margin: 0; }
+
+.fa-chevron-right {
+    vertical-align: middle; }
+
+.modal_close {
+    margin: 3%;
+    background: black;
+    border: none;
+    border-radius: 50%;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    width: 42px;
+    height: 42px;
+    transition: transform 600ms;
+    display: none; }
+
+.modal_open {
+    text-align: center;
+    margin: 3%;
+    background: #000000;
+    border: none;
+    border-radius: 50%;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    width: 42px;
+    height: 42px;
+    transition: transform 600ms; }
+
+.modalopen {
+    background: #FFFFFF;
+    content: '';
+    cursor: pointer;
+    display: block;
+    height: 2px;
+    width: 20px;
+    margin: 5px auto; }
+
+.modal_close:hover,
+.modal_open:hover {
+    background: black;
+    border: 1px solid white;
+    transform: rotate(360deg) scale(1.1);
+    transition: transform 600ms; }
+
+button.modal_close span, .modalspan:before, .modalspan:after {
+    background: #FFFFFF;
+    content: '';
+    cursor: pointer;
+    display: block;
+    height: 2px;
+    width: 20px; }
+
+button.modal_close .modalspan:first-child {
+    background: none;
+    margin: auto; }
+
+button.modal_close .modalspan:before {
+    transform: rotate(45deg); }
+
+button.modal_close .modalspan:after {
+    transform: translateY(-2px) rotate(-45deg);
+    top: 2px; }
+
+.sub-menu > a {
+    line-height: 1.5; }
+
+header {
+    width: 100%;
+    padding: 1% 0;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    z-index: 1000; }
+
+.logo {
+    width: 244px;
+    height: 50px; }
+
+.current {
+    display: inline-block; }
+
+.dropdown-toggle {
+    font-size: 2rem;
+    color: white;
+    font-weight: 100; }
+
+.dropdown-menu {
+    background: rgba(0, 0, 0, 0.8);
+left: 0!important;}
+
+.sub-menu {
+    list-style: none;
+    text-decoration: none;
+    background: none; }
+
+.row {
+    margin: 0; }
+
+/*need to change*/
+.white {
+    color: white;
+}
+
+@media (max-width: 769px) {
+    .navbar-nav {
+        display: none;
+        padding-top: 73px; } }

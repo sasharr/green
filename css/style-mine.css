@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+
+body {
+    background: white;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    font-size: 65%; }
+
+* h2 {
+    font-size: 2.2rem;
+margin: 0}
+
+* p {
+    font-size: 2rem; }
+
+*:hover {
+    transition: 1s; }
+
+.about {
+    background: white;
+    padding: 2% 0; }
+.about__heading {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.2em;
+    font-family: "Roboto",sans-serif;
+    color: #3599b9;
+    padding: 0 5% 1%;
+    z-index: 1; }
+.about__text {
+    font-weight: 300;
+    line-height: 1.3em;
+    font-family: "Roboto",sans-serif;
+    color: #7d8182;
+    padding: 0 9%; }
+
+hr {
+    width: 80%;
+    margin: 4% auto; }
+
+.about__image {
+    width: 90%;
+    height: auto;
+    border-radius: 6px;
+    max-height: 300px;
+    overflow: hidden;
+    margin: 0 auto; }
+
+.owl-carousel {
+    width: 80%;
+    margin: 0 auto; }
+
+.item {
+    text-align: center;
+    padding: 20px;
+    border-radius: 9px;
+    background: rgba(185, 185, 185, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 550px;
+    margin: 5px 20px; }
+.item__heading {
+    text-transform: uppercase;
+    color: #3599b9;
+    padding-bottom: 10px;
+}
+
+.owl-dots {
+    margin: 35px;
+}
+.owl-prev {
+    background: grey;
+    left:0;
+}
+
+.about_wrapper {
+    width: 100%;
+    padding-top: 20px; }
+
+.column-text {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    color: #7d8182;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    text-align: left; }
+
+.fa-circle {
+    font-size: 12px;
+    vertical-align: middle;
+    color: #3599b9; }
+
+.fa-minus {
+    color: #3599b9; }
+
+.wedo {
+    background: url("../img/gallery_03.png") no-repeat;
+    background-size: cover;
+    padding: 50px 10%;
+    text-align: center; }
+.wedo__heading {
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase; }
+.wedo__text {
+    font-family: "Roboto",sans-serif;
+    text-align: left;
+    font-size: 18px; }
+
+.wedo_wrapper {
+    vertical-align: text-top;
+    width: 30%;
+    padding: 1%;
+    margin: 0 1%;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.41);
+    border-radius: 9px; }
+
+.appstore {
+    padding-bottom: 2%;
+    padding-top: 2%; }
+.appstore__heading {
+    font-weight: 400;
+    font-size: 250%;
+    line-height: 1.2em;
+    font-family: "Roboto", sans-serif;
+    color: #3599b9;
+    margin-top: 0; }
+.appstore__desc {
+    color: #7d8182;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    text-align: justify; }
+.appstore__link-item {
+    display: inline-block; }
+.appstore__link-item--top {
+    margin-bottom: 10.3%; }
+.appstore--alignment {
+    text-align: right;
+    font-size: 0; }
+.appstore--center {
+    text-align: center; }
+
+@media only screen and (min-width: 1800px) {
+    .appstore--alignment {
+        text-align: left; }
+
+    .appstore__link-item--top {
+        margin-bottom: 9%; } }
+@media only screen and (min-width: 1800px) {
+    .appstore--alignment {
+        text-align: left; }
+
+    .appstore__link-item--top {
+        margin-bottom: 9%; } }
+@media only screen and (min-width: 2000px) {
+    .appstore--alignment {
+        text-align: left; }
+
+    .appstore__link-item--top {
+        margin-bottom: 6%; } }
+.footer {
+    background: rgba(0, 0, 0, 0.95);;
+    color: #3599b9;
+    padding: 4% 0;
+    text-align: center; }
+
+.icons {
+    list-style: none;
+    margin: 0 0 3% 0;
+    padding-left: 0; }
+.icons__item {
+    display: inline-block; }
+.icons__logo {
+    text-decoration: none !important;
+    position: relative;
+    color: #fff !important;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border: 0;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 24px;
+    height: 45px;
+    left: 0;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    width: 45px; }
+.icons__logo:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important; }
+.icons__logo--fa-twitter {
+    background: #70aecd;
+    color: #fff; }
+.icons__logo--fa-twitter:hover {
+    background: #7fb7d2;
+    top: -5px; }
+.icons__logo--fa-twitter:before {
+    content: "\f099"; }
+
+.footer-menu {
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 0;
+    margin-bottom: 0; }
+.footer-menu__item {
+    display: inline-block;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: dotted 1px; }
+.footer-menu__item:first-child {
+    margin: 0;
+    padding: 0;
+    border: 0; }
+.footer-menu__link {
+    color: inherit; }
+
+@media screen and (max-width: 736px) {
+    .footer-menu__item {
+        display: block;
+        margin: 3% 0 0 0;
+        padding: 0;
+        border: 0; } }
