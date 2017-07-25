@@ -2,7 +2,9 @@
     margin: 0; }
 
 .fa-chevron-right {
-    vertical-align: middle; }
+    vertical-align: middle;
+    font-size: 15px;
+}
 
 .modal_close {
     margin: 3%;
@@ -42,7 +44,7 @@
 .modal_close:hover,
 .modal_open:hover {
     background: black;
-    border: 1px solid white;
+    border: 2px solid white;
     transform: rotate(360deg) scale(1.1);
     transition: transform 600ms; }
 
@@ -76,9 +78,19 @@ header {
     top: 0;
     z-index: 1000; }
 
+.header1 {
+    width: 100%;
+    padding: 1% 0;
+    background: rgba(0, 0, 0, 0.8);
+    position: static;
+    }
+
 .logo {
-    width: 244px;
-    height: 50px; }
+    width: auto;
+    height: 70px; }
+.navbar-nav {
+    padding-top: 10px;
+}
 
 .current {
     display: inline-block; }
@@ -105,7 +117,12 @@ left: 0!important;}
     color: white;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 992px) {
     .navbar-nav {
         display: none;
-        padding-top: 73px; } }
+        padding-top: 73px; }
+.logo {
+    height: 50px;
+    width: auto;
+}
+}
