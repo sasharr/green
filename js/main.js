@@ -59,7 +59,7 @@ $(document).ready(function(){
 
 	//end Sasha
 	//init google prettify
-	prettyPrint();
+	// prettyPrint();
 	
 	//[01]. Nivo Lightbox
 	$('a.nivoLightbox').nivoLightbox({
