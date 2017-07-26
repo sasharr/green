@@ -107,7 +107,10 @@ left: 0!important;}
 .sub-menu {
     list-style: none;
     text-decoration: none;
-    background: none; }
+    background: none;
+    font-weight: 100;
+    line-height: 2em;
+}
 
 .row {
     margin: 0; }

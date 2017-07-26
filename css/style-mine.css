@@ -54,11 +54,15 @@ hr {
 .item {
     text-align: center;
     padding: 20px;
-    border-radius: 9px;
-    background: rgba(185, 185, 185, 0.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /*border-radius: 9px;*/
+    /*background: rgba(185, 185, 185, 0.2);*/
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
     height: 550px;
-    margin: 5px 20px; }
+    margin: 5px 20px;
+    background: #FFF;
+    border: 1px solid #eee;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 6px;}
 .item__heading {
     text-transform: uppercase;
     color: #3599b9;
@@ -81,15 +85,22 @@ hr {
     width: 90%;
     margin: 0 auto;
     display: block;
-    color: #7d8182;
+
     font-family: "Roboto", sans-serif;
-    font-size: 1.7rem;
-    text-align: left; }
+
+    text-align: left;
+
+font-size: 1.6rem;
+    color: #999;
+    line-height: 26px;
+    font-weight: 200
+}
 
 .fa-circle {
     font-size: 12px;
     vertical-align: middle;
-    color: #3599b9; }
+    color: #3599b9;
+    padding-right: 10px;}
 
 .fa-minus {
     color: #3599b9; }
@@ -103,19 +114,23 @@ hr {
 
 .wedo__bg {
     background: rgba(255, 255, 255, 0.81);
-    border-radius: 9px;
+    border-radius: 6px;
     padding: 2% 0;
+
 }
 .wedo__heading {
     font-family: "Roboto",sans-serif;
     text-transform: uppercase;
 margin: 3% auto;
+    color: #3599b9;
 }
 .wedo__text {
     font-family: "Roboto",sans-serif;
     /*text-align: left;*/
-    font-size: 18px;
-text-align: justify;}
+text-align: justify;
+    font-size: 1.6rem;
+    color: #6f6f6f;
+    font-weight: 200;}
 
 .wedo_wrapper {
     vertical-align: text-top;
@@ -134,10 +149,12 @@ text-align: justify;}
     color: #3599b9;
     margin-top: 0; }
 .appstore__desc {
-    color: #7d8182;
-    font-family: "Roboto", sans-serif;
     font-size: 17px;
-    text-align: justify; }
+    text-align: justify;
+    font-weight: 300;
+    line-height: 1.3em;
+    font-family: "Roboto",sans-serif;
+    color: #7d8182;}
 .appstore__link-item {
     display: inline-block; }
 .appstore__link-item--top {
@@ -237,7 +254,17 @@ text-align: justify;}
         padding: 0;
         border: 0; } }
 
+/*feautures page*/
+.hello-feautures {
+    max-height: 500px;
+    overflow-y: hidden;
+}
 
+.hello-feautures-img {
+   height: auto;
+    overflow-y: hidden;
+    width: 100%;
+}
 .main-features {
     padding-bottom: 2%;
     padding-top: 2%; }
@@ -272,6 +299,9 @@ text-align: justify;}
     color: #3599b9;
     text-transform: uppercase; }
 .icon-boxes__content-text {
-    color: #7d8182;
     font-family: "Roboto", sans-serif;
-    font-size: 17px; }
+    font-size: 1.6rem;
+    color: #999;
+    line-height: 26px;
+    font-weight: 200;
+}
