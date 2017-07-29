@@ -57,6 +57,19 @@ $(document).ready(function(){
         }
     });
 
+
+
+    // window.onscroll = function() {
+    //   $(".header1") .css("background" ,'rgba(0, 0, 0, 0.8)');
+    // };
+
+
+
+    $(document).scroll(function() {
+       $("header").removeClass("header1");
+
+    });
+
 	//end Sasha
 	//init google prettify
 	// prettyPrint();
