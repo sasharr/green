@@ -78,12 +78,13 @@ header {
     top: 0;
     z-index: 1000; }
 
-.header1 {
-    width: 100%;
-    padding: 1% 0;
-    background: rgba(0, 0, 0, 0.8);
-    position: static;
-    }
+/*.header1 {*/
+    /*width: 100%;*/
+    /*padding: 1% 0;*/
+    /*background: none;*/
+    /*position: fixed;*/
+    /*}*/
+
 
 .logo {
     width: auto;

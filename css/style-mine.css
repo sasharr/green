@@ -13,6 +13,9 @@ margin: 0}
 
 * p {
     font-size: 2rem; }
+ul {
+    list-style: none;
+}
 
 *:hover {
     transition: 1s; }
@@ -138,6 +141,84 @@ text-align: justify;
     /*margin-bottom: 5%;*/
     }
 
+
+.readytouse {
+
+    padding: 5% 0;
+    background-color: #645862;
+    background-image: url(../img/light-tl.svg), url(../img/light-tr.svg), url(../img/overlay.png), url(../img/banner.jpg);
+    background-position: top left, top right, top left, bottom center;
+    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+    background-size: 50em, 50em, auto, cover;
+    color: #fff;
+    /*padding: 5em;*/
+    text-align: center;
+}
+
+.readytouse__heading {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    line-height: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 2rem;
+}
+
+.readytouse__text {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 2rem;
+}
+
+.readytouse li {
+    width: 49%;
+    display: inline-block;
+    padding: 0 0 0 1.5em;
+}
+
+input[type="button"].special, input[type="submit"].special, input[type="reset"].special, .button.special {
+    background: #39A6CA;
+    border-color: #39A6CA;
+    color: #fff !important;
+    border-radius: 2px;
+    float: right;
+}
+
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    background: none;
+    border: solid 1px;
+    color: inherit;
+    cursor: pointer;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+
+    font-weight: 900;
+float: left;
+    min-width: 18em;
+    padding: 1%;
+    line-height: 2.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+
+
+
+
 .appstore {
     padding-bottom: 5%;
     padding-top: 5%; }
@@ -256,7 +337,7 @@ text-align: justify;
 
 /*feautures page*/
 .hello-feautures {
-    max-height: 500px;
+    max-height: 650px;
     overflow-y: hidden;
 }
 
