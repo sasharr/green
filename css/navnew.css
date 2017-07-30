@@ -124,9 +124,14 @@ left: 0!important;}
 @media (max-width: 992px) {
     .navbar-nav {
         display: none;
-        padding-top: 73px; }
+       }
 .logo {
     height: 50px;
     width: auto;
 }
+}
+@media (max-width: 738px) {
+    .navbar-nav {
+
+        padding-top: 73px; }
 }
