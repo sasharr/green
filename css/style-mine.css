@@ -144,7 +144,7 @@ hr {
 }
 /*we do section*/
 .wedo {
-    background: url("../img/gallery/gallery_01.jpg") no-repeat;
+    background: url("../img/banner_sky.jpeg") no-repeat;
     background-size: cover;
     padding: 5% 0;
     text-align: center;
@@ -183,7 +183,7 @@ hr {
 .readytouse {
     padding: 5% 0;
     background-color: #645862;
-    background-image: url(../img/light-tl.svg), url(../img/light-tr.svg), url(../img/overlay.png), url(../img/banner.jpg);
+    background-image: url(../img/light-tl.svg), url(../img/light-tr.svg), url(../img/overlay.png), url(../img/banner_grass.jpg);
     background-position: top left, top right, top left, bottom center;
     background-repeat: no-repeat, no-repeat, repeat, no-repeat;
     background-size: 50em, 50em, auto, cover;
@@ -699,3 +699,73 @@ line-height: 1.2;
 @media only screen and (min-width: 1900px) {
     .plans-specification__item {
         margin: 0 5%; } }
+
+
+/*partners*/
+.partners-page {
+    padding: 120px 0 20px;
+    background: url("../img/banner_sky.jpeg");
+}
+
+.partners-img {
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #eee;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.hardware {
+    display: inline-block;
+    width: 15%;
+    height: auto;
+    margin: 1%;
+}
+
+.software {
+    display: inline-block;
+    width: 18%;
+    height: auto;
+    margin: 2%;
+}
+
+.parners-page__heading {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #3599b9;
+    line-height: 1.2;
+    margin: 3% auto;
+    text-align: center;
+}
+
+/*solutions*/
+.solutions {
+    padding: 100px 0 2%;
+}
+
+.solutions__header {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #3599b9;
+    text-transform: uppercase;
+    margin: 3% auto;
+    text-align: center;
+}
+
+.solutions__desc {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    color: #999;
+    line-height: 26px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.solutions__padding {
+    position: absolute;
+    top: -100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .solutions {
+        padding-top: 70px;
+    }
+}
