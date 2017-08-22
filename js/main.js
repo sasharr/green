@@ -65,56 +65,10 @@ $(document).ready(function(){
 
 
 
-    $(document).scroll(function() {
-       $("header").removeClass("header1");
 
-    });
 
 	//end Sasha
-	//init google prettify
-	// prettyPrint();
-	
-	//[01]. Nivo Lightbox
-	$('a.nivoLightbox').nivoLightbox({
-		effect: 'fall', // Other Effects: fade, fadeScale, slideLeft, slideRight, slideUp, slideDown, fall
-		errorMessage: 'The requested content cannot be loaded. Please try again later.' // Error message when content can't be loaded
-	});
-	
-	// //[02]. OWL Carousel - Clients
-	// $(".owl-carousel.gallery").owlCarousel({
-	// 	loop: true,
-	// 	margin: 10,
-	// 	nav: true,
-	// 	dots: false,
-	// 	responsive:{
-	// 		0:{
-	// 			items: 1
-	// 		},
-	// 		600:{
-	// 			items: 2
-	// 		},
-	// 		1000:{
-	// 			items: 3
-	// 		}
-	// 	}
-	// });
 
-    // $(".owl-carousel").owlCarousel({
-    //     loop: true,
-    //     margin: 10,
-    //     dots: false,
-    //     responsive:{
-    //         0:{
-    //             items: 1
-    //         },
-    //         600:{
-    //             items: 2
-    //         },
-    //         1000:{
-    //             items: 3
-    //         }
-    //     }
-    // });
 	
 	// //[03]. OWL Carousel - Slideshow
 	// $(".owl-carousel.slideshow").owlCarousel({
@@ -128,40 +82,7 @@ $(document).ready(function(){
 	// 	animateIn: 'rotateIn',
 	// 	dots: false
 	// });
-	
-	//[04]. Back To Top
-	$().UItoTop({ easingType: 'easeOutQuart' });
-	
-	//[05]. Gallery Effect
-	$('.widget-gallery .photo-gallery').hover(
-		function(){
-			$(this).find('.fancy-overlay').fadeIn( "fast" );
-			$(this).find('.look').fadeIn( "fast" );
-		}, 
-		function(){
-			$(this).find('.fancy-overlay').fadeOut( "fast" );
-			$(this).find('.look').fadeOut( "fast" );
-		}
-	);
-	
-	//[06]. Animated Progress Bars
-	$('.progress-bar').appear(function(){
-		var pBar = $(this);
-		pBar.each(function(indx){
-			$(this).css("width", $(this).attr("aria-valuenow") + "%");
-		});
-	});
-	
-	//[07]. Text Rotators
-	$.each($(".text-rotator"), function(i){
-		var effect = $(this).attr("data-rotator-animation-effect");
-		var speed = $(this).attr("data-animation-speed");
-		$(this).Morphext({
-			animation: effect,
-			separator: ",",
-			speed: speed
-		});
-	});
+
 	
 	//[08]. Conters
 	$('.timer').appear(function(){
@@ -179,13 +100,7 @@ $(document).ready(function(){
 		});
 	});
 	
-	//[09]. Tweeter Tweets
-	$('.tweets').tweecool({
-      	//settings
-      	 username : 'DroneLogbook', 
-         limit : 3,
-		 profile_image : false
-      });
+
 	
 	// //[10]. jQuery to collapse the navbar on scroll
 	// $(window).scroll(function() {
