@@ -716,6 +716,7 @@ line-height: 1.2;
 .partners-page {
     padding: 120px 0 20px;
     background: url("../img/banner_sky.jpeg");
+    background-size: cover;
 }
 
 .partners-img {
