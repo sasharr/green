@@ -718,8 +718,8 @@ line-height: 1.2;
 /*partners*/
 .partners-page {
     padding: 120px 0 20px;
-    background: url("../img/banner_sky.jpeg");
-    background-size: cover;
+    /*background: url("../img/banner_sky.jpeg");*/
+    /*background-size: cover;*/
 }
 
 .partners-img {
@@ -734,16 +734,18 @@ line-height: 1.2;
 
 .hardware {
     display: inline-block;
-    max-width: 18%;
-    max-height: 80px;
+    width: auto;
+    height: 80px;
     margin: 1%;
+    text-align: center;
 }
 
 .software {
     display: inline-block;
-    max-width: 18%;
-    max-height: 80px;
+    width: auto;
+    height: 80px;
     margin: 2%;
+    text-align: center;
 }
 
 .parners-page__heading {
