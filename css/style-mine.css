@@ -723,7 +723,7 @@ line-height: 1.2;
 }
 
 .partners-img {
-    background: rgba(0, 0, 0, 0.8);
+    /*background: rgba(0, 0, 0, 0.8);*/
     border: 1px solid #eee;
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
     border-radius: 6px;
@@ -735,14 +735,14 @@ line-height: 1.2;
 .hardware {
     display: inline-block;
     max-width: 18%;
-    max-height: 95px;
+    max-height: 80px;
     margin: 1%;
 }
 
 .software {
     display: inline-block;
     max-width: 18%;
-    max-height: 95px;
+    max-height: 80px;
     margin: 2%;
 }
 
